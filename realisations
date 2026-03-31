@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Réalisations de Africa Global Sciences Consulting : tableaux de bord, évaluations, formations, gestion de projets." />
+  <title>Nos réalisations — Africa Global Sciences Consulting</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header (FR) -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__logo">AG</span>
+        <span class="brand__name">Africa Global Sciences Consulting</span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu">☰</button>
+      <nav id="nav" class="nav">
+        <a href="services.html">Services</a>
+        <a href="about.html">À propos</a>
+        <a href="realisations.html" class="active">Réalisations</a>
+        <a href="references.html">Références</a>
+        <a href="contact.html" class="btn btn--small">Contact</a>
+        <a href="en/realisations.html" class="btn btn--ghost btn--small">EN</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagehead">
+      <div class="container">
+        <h1>Nos réalisations</h1>
+        <p>Exemples de missions (remplacez par vos projets réels).</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid--3">
+        <article class="card">
+          <h3>Dashboard KPI (Power BI)</h3>
+          <p>Tableau de bord pour le pilotage de la performance et la redevabilité.</p>
+          <p class="meta">Livrables : KPI, modèle de données, guide utilisateur</p>
+        </article>
+
+        <article class="card">
+          <h3>Plan de Suivi-Évaluation</h3>
+          <p>Théorie du changement, cadre logique, matrice d’indicateurs, plan de collecte.</p>
+          <p class="meta">Livrables : MEP, outils, calendrier, responsabilités</p>
+        </article>
+
+        <article class="card">
+          <h3>Évaluation mi-parcours</h3>
+          <p>Approche mixte : revue documentaire, collecte, analyses, recommandations.</p>
+          <p class="meta">Livrables : rapport + restitution</p>
+        </article>
+
+        <article class="card">
+          <h3>Formation S&E</h3>
+          <p>Formation pratique + coaching terrain (outils, QA, reporting).</p>
+          <p class="meta">Livrables : modules, exercices, kit d’outils</p>
+        </article>
+
+        <article class="card">
+          <h3>Gestion de projets (PMO)</h3>
+          <p>Planification, coordination, suivi des livrables et gestion des risques.</p>
+          <p class="meta">Livrables : chronogramme, reporting, risques</p>
+        </article>
+
+        <article class="card">
+          <h3>Système de collecte (Kobo/ODK)</h3>
+          <p>Formulaires, règles de validation, tests, déploiement, support.</p>
+          <p class="meta">Livrables : formulaires, dictionnaire, procédure QA</p>
+        </article>
+      </div>
+
+      <div class="container section__cta">
+        <a class="btn" href="contact.html">Discuter d’une mission</a>
+        <a class="btn btn--ghost" href="references.html">Voir nos références</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__bottom">
+      <small>© <span id="year"></span> Africa Global Sciences Consulting.</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
