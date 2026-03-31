@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Contactez notre cabinet pour vos besoins en S&E, statistiques, renforcement de capacités et gestion de projets." />
+  <title>Contact — Africa Globla Sciences Consulting</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html"><span class="brand__logo">◆</span><span class="brand__name">[Nom du Cabinet]</span></a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu">☰</button>
+      <nav id="nav" class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagehead">
+      <div class="container">
+        <h1>Nous contacter</h1>
+        <p>Expliquez votre besoin : nous vous répondrons rapidement.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid--2">
+        <div class="card">
+          <h2>Coordonnées</h2>
+          <ul class="contact-list">
+            <li><strong>Téléphone :</strong> +226 XX XX XX XX</li>
+            <li><strong>Email :</strong> contact@cabinet.com</li>
+            <li><strong>Adresse :</strong> [Ville, Quartier]</li>
+            <li><strong>Horaires :</strong> Lun–Ven : 08:00–17:00</li>
+          </ul>
+          <div class="callout">
+            <strong>Astuce</strong>
+            <p>Pour un devis plus rapide, indiquez : objectifs, zone, durée, budget et contraintes.</p>
+          </div>
+        </div>
+
+        <form class="card form" id="contactForm">
+          <h2>Formulaire</h2>
+
+          <label>
+            Nom & Prénoms
+            <input name="name" type="text" placeholder="Votre nom" required />
+          </label>
+
+          <label>
+            Organisation
+            <input name="org" type="text" placeholder="ONG, projet, entreprise..." />
+          </label>
+
+          <label>
+            Email
+            <input name="email" type="email" placeholder="vous@exemple.com" required />
+          </label>
+
+          <label>
+            Téléphone
+            <input name="phone" type="tel" placeholder="+226 ..." />
+          </label>
+
+          <label>
+            Besoin
+            <select name="need" required>
+              <option value="">Sélectionnez…</option>
+              <option>Systèmes statistiques</option>
+              <option>Suivi-Évaluation (S&E)</option>
+              <option>Renforcement de capacités</option>
+              <option>Gestion de projets</option>
+              <option>Autre</option>
+            </select>
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="6" placeholder="Décrivez votre demande..." required></textarea>
+          </label>
+
+          <button class="btn" type="submit">Envoyer</button>
+          <p class="muted" id="formMsg" role="status" aria-live="polite"></p>
+
+          <!-- Option simple: ouvrir un mail au clic (sans backend) -->
+          <p class="muted">
+            Si l’envoi ne marche pas, écrivez directement à
+            <a class="link" href="mailto:contact@cabinet.com">contact@cabinet.com</a>.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__bottom">
+      <small>© <span id="year"></span> [Nom du Cabinet].</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
